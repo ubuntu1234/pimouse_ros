@@ -4,7 +4,7 @@ import sys, rospy, math
 from pimouse_ros.msg import MotorFreqs
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Trigger, TriggerResponse
-from pimouse_ros.msg import TomedMotion
+from pimouse_ros.msg import TimedMotion
 
 class Motor():
     def __init__(self):
